@@ -17,8 +17,10 @@ public class Main {
         int opcion = sc.nextInt();
         //Condiciones
         if (opcion == 1) {
+            //Área del triangulo
 
         } else if (opcion == 2) {
+            //Área del cuadradp
 
         } else if (opcion == 3) {
             //Área del círculo
@@ -28,7 +30,7 @@ public class Main {
             double area = Math.PI * radio * radio;
             System.out.println("El área del circulo es: " + area);
         } else if (opcion == 4) {
-
+            System.out.println("No seleccionó ninguna opción");
         }
 
     }
