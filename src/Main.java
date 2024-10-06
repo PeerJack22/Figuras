@@ -18,7 +18,7 @@ public class Main {
         //Condiciones
         if (opcion == 1) {
             System.out.println("--------------Triangulo---------------");
-            System.out.println("Ingrese la base del triángulo:");
+            System.out.println("Ingrese la base del triángulo: ");
             double base = sc.nextDouble();
             System.out.println("ingrese la altura del triángulo:");
             double altura = sc.nextDouble();
