@@ -20,8 +20,12 @@ public class Main {
             //Área del triangulo
 
         } else if (opcion == 2) {
-            //Área del cuadradp
-
+            //Área del cuadrado
+            System.out.println("--------------Cuadrado---------------");
+            System.out.println("---Ingrese la longitud del cuadrado--");
+            double lado= sc.nextDouble();
+            double areacuadrado= lado*lado;
+            System.out.println("---El área del cuadrado es :"+areacuadrado);
         } else if (opcion == 3) {
             //Área del círculo
             System.out.println("------Círculo------");
