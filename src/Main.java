@@ -17,7 +17,13 @@ public class Main {
         int opcion = sc.nextInt();
         //Condiciones
         if (opcion == 1) {
-            //Área del triangulo
+            System.out.println("--------------Triangulo---------------");
+            System.out.println("Ingrese la base del triángulo:");
+            double base = sc.nextDouble();
+            System.out.println("ingrese la altura del triángulo:");
+            double altura = sc.nextDouble();
+            double area = (base * altura) / 2;
+            System.out.println("El area del triángulo es de: "+ area);
 
         } else if (opcion == 2) {
             //Área del cuadrado
